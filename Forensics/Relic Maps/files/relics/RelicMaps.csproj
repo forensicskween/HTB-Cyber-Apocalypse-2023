@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RelicMaps</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Net.Http">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.32/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.32/System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

