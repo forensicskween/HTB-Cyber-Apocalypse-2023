@@ -88,11 +88,11 @@ The menu gives us three choices:
 
 Enter coordinate x. The coordinate is passed to the class Relic, and if the point is on the curve, then point P will be initialised. If it’s **not on the curve**, it will tell us ‘Point not on curve’,  if it’s bigger than **p**, it will return 'Coordinate greater than curve modulus’. So we have ways to **recover P** through this option. 
 
-1. Receive new point
+2. Receive new point
 
 The function nextPoints in the class Relic returns four values, the coordinates of  point EP multiplied by the enc_seed and the coordinates of point P multiplied by the seed (both seeds are initialised by the PRNG class). 
 
-1. Find true point
+3. Find true point
 
 Here, we are asked to enter coordinates x, and y. The server will call the nextPoints() function, and compare our values to its output. **Important thing to keep in mind**, the points being verified are the points of P, aka the value multiplied by the normal seed, not the encrypted seed. The points we receive in option 2 are encrypted with the enc_seed. 
 
